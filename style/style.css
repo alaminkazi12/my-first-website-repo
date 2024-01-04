@@ -95,3 +95,11 @@ span{
 button:hover span{
     width: 100%;
 }
+.img-container {
+    float: left;
+    width: 33%;
+    border: 1px solid;
+}
+.img-container img {
+    height: 300px;
+}
