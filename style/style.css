@@ -99,7 +99,32 @@ button:hover span{
     float: left;
     width: 33%;
     border: 1px solid;
+    padding: 1px;
+}
+.portfolio::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 .img-container img {
-    height: 300px;
+    height: 280px;
+}
+.box-l {
+    box-sizing: border-box;
+    margin: 0 20px 20px;
+}
+.box-l h2, p {
+    text-align: center;
+    text-transform: capitalize;
+}
+.box-l h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.box-l p {
+    margin: auto;
+    font-weight: 100;
+    line-height: 25px;
 }
